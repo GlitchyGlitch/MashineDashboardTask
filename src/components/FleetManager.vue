@@ -16,7 +16,8 @@
         {{ selectedMachine?.make }} / {{ selectedMachine?.type }}
         <h2>Location</h2>
         N: {{ selectedMachine?.location.N }}<br />
-        E: {{ selectedMachine?.location.E }}
+        E: {{ selectedMachine?.location.E }}<br />
+        H: {{ selectedMachine?.location.H }}<br />
       </div>
     </div>
   </div>
